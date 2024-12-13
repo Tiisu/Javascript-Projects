@@ -2,11 +2,11 @@
     display: grid;
     place-items: center;
 }
-/* .display {
+.display {
     display: flex;
     margin: 20px;
     padding: 20px 45px;
-} */
+}
 
 .buttons {
     display: grid; 
