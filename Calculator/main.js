@@ -54,6 +54,28 @@ function calculate(a, b, operator) {
             return a * b;
         case '/':
             return b !== 0 ? a / b : 'Error';
+        case '^':
+            return Math.pow(a, b);
+        case 'sin':
+            return Math.sin(a);
+        case 'cos':
+            return Math.cos(a);
+        case 'tan':
+            return Math.tan(a);
+        case 'log':
+            return Math.log(a);
+        case 'sqrt':
+            return Math.sqrt(a);
+        case 'x!':
+            return factorial(a);
+        case 'x^y':
+            return Math.pow(a, b);
+        case '1/x':
+            return 1 / a;
+        case 'e^x':
+            return Math.exp(a);
+        case '10^x':
+            return Math.pow(10, a);
         default:
             return b;
     }
